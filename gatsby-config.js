@@ -6,7 +6,7 @@ module.exports = {
       summary: `a UX/UI Dev who runs on	🍜noodles.`,
     },
     description: `A blog containing Cat's learnings, thoughts, feels, and (occasionally) drawings.`,
-    siteUrl: `https://suspicious-bhaskara-5431cf.netlify.app/`,
+    siteUrl: `https://blog.catcarbonell.dev/`,
     social: {
       twitter: `catcarbn`,
     },
