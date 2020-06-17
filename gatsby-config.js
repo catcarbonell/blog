@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Hello World!`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Cat Carbonell`,
+      summary: `a UX/UI Dev who runs on	🍜noodles.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `A blog containing Cat's learnings, thoughts, feels, and (occasionally) drawings.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `catcarbn`,
     },
   },
   plugins: [
@@ -76,6 +76,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-netlify-cms`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,

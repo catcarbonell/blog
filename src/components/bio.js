@@ -57,10 +57,17 @@ const Bio = () => {
         }}
       />
       <p>
-        Written by <strong>{author.name}</strong> {author.summary}
-        {` `}
+        👋 Hi, I'm <strong>{author.name}:</strong> {author.summary}
+        <br />
+        Here, you'll find learnings, thoughts, feels, and doodles straight from the Cat's brain. 🧠🗑️
+        <br />
+        🔗 &nbsp;
         <a href={`https://twitter.com/${social.twitter}`}>
-          You should follow him on Twitter
+          twitter
+        </a>
+        &nbsp; / &nbsp; 
+        <a href="https://catcarbonell.dev" target="new">
+          portfolio
         </a>
       </p>
     </div>
